@@ -1,0 +1,6 @@
+:root {
+  --colorBlack: #222;
+  --colorYellow: #f4ae45;
+  --colorTransparent: rgba(0, 0, 0, 0.6);
+  --borderRadiusSix: 6px;
+}

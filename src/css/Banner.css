@@ -1,0 +1,60 @@
+.banner-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--colorYellow);
+  gap: 30px;
+}
+
+.banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--colorYellow);
+}
+
+.banner-title {
+  width: 800px;
+  margin-top: 50px;
+  font-size: 2rem;
+  color: var(--colorBlack);
+  text-align: center;
+  font-family: "Meow Script", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.banner-container {
+  width: 1200px;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.banner-image {
+  width: 1200px;
+  height: 650px;
+  border-radius: var(--borderRadiusSix);
+}
+
+.previous-button {
+  left: 0;
+}
+
+.next-button {
+  right: 0;
+}
+
+.previous-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--colorTransparent);
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+  padding: 20px 10px;
+}
